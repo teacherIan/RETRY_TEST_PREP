@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="510.0" prefWidth="382.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo6.SceneTwoController">
+   <children>
+      <TextField fx:id="firstNameField" layoutX="111.0" layoutY="92.0" promptText="firstname" />
+      <TextField fx:id="lastNameField" layoutX="111.0" layoutY="209.0" promptText="lastname" />
+      <TextField fx:id="ageField" layoutX="111.0" layoutY="344.0" promptText="age" />
+      <Button layoutX="164.0" layoutY="421.0" mnemonicParsing="false" onAction="#addData" text="Button" />
+   </children>
+</AnchorPane>
